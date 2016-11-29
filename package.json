@@ -1,0 +1,50 @@
+{
+  "name": "adventure-bot",
+  "version": "0.0.0",
+  "description": "An RPG bot that totally isn't a ripoff of DiscordRPG",
+  "homepage": "https://github.com/Rayzr522/AdventureBot/",
+  "author": {
+    "name": "Rayzr522",
+    "email": "rayzr522@gmail.com",
+    "url": "https://github.com/Rayzr522/"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "discord",
+    "bot",
+    "adventure",
+    "rpg"
+  ],
+  "scripts": {
+    "bot": "node ./lib/index.js",
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "devDependencies": {
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.15.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-istanbul": "^1.0.0",
+    "gulp-mocha": "^3.0.1",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "repository": "Rayzr522/adventure-bot",
+  "private": true,
+  "dependencies": {
+    "clapp": "^1.0.1",
+    "discord.js": "^10.0.1"
+  }
+}
