@@ -1,6 +1,0 @@
-{
-    "rules": {
-        "indent": ["warn"],
-        "no-unused-vars": ["warn"]
-    }
-}
