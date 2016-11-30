@@ -44,7 +44,6 @@
   "repository": "Rayzr522/adventure-bot",
   "private": true,
   "dependencies": {
-    "clapp": "^1.0.1",
     "discord.js": "^10.0.1"
   }
 }
